@@ -1,0 +1,17 @@
+/* CSS syntax
+p {  color : blue; }
+p --> Selector  (Where?)
+color --> Property  (Apply This)
+blue --> Value   (Set it)
+ */
+ /*
+ header, p.intro {
+                   background-color : red;
+                   border-radius : 3px;
+                  }
+
+ */
+ /* THREE WAYS TO ADD CSS TO THE MARKUP
+ 1. Inline CSS : CSS is added to the elements directly using style attrribute
+ 2. Internal CSS : CSS is kept inside the head tags in <style> tags
+ 3. External CSS : CSS is kept seperately inside a .css style sheet */
