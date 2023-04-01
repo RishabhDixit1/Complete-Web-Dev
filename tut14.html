@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="tut3.css">
+    <style>
+         /* Element Selector */
+        p{
+            color: brown;
+            border: 3px solid black;
+        }
+        /* Class Selector */
+        #blueElement{
+            color: blue;
+        }
+         /* Id Selector */
+        .blueElement{
+            color: blue;
+        }
+        .bgCol{
+            background-color: chartreuse;
+        }
+         /* Grouping Selector */
+        span, footer{
+            background-color: pink;
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p class="blueElement">This is a simple paragraph to demonstrate the css selectors</p>
+    
+    <p id="blueElement">This is an another simple paragraph to demonstrate the css selectors</p>
+    <div>
+        <p class="bgCol">This is a simple paragraph to demonstrate the css selectors</p>
+        <span>This is a span</span>
+        
+    </div>
+    <footer>This is a footer</footer>
+</body>
+</html>
