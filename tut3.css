@@ -1,0 +1,12 @@
+/* CSS slectors are used to find the element whose property will be set
+1. CSS element Selector
+2. CSS id Selector
+3. CSS class Selector
+4. CSS grouping Selector
+ */
+ p{
+    color: brown;
+}
+#blueElement{
+    color: red;
+}
