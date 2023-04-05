@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style>
+        #usName{
+            
+            color: red;
+        }
+        form{
+            background-color: yellow;
+        }
+        #chButton{
+            color: blue;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
     <h2>Forms in HTML</h2>
     <form action="backend.php">
-        <div>
+        <div id="usName">
             UserName: <input type="text" name="myName">
         </div>
         <br>
@@ -36,7 +49,7 @@
 
         </div>
         <br>
-        <div>
+        <div id="chButton">
             <input type="button" value="Submit">
 
         </div>
