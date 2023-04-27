@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Display Property</title>
     <style>
-        img{
-            width: 34px;
+        *{
+            box-sizing: border-box;
         }
-        h3{
+        header {
+            
+            border: 2px solid red;
+            margin: auto;
+            width: 1200px;
+
+        }
+
+        img {
+            width: 34px;
+            margin: auto;
+            display: block;
+        }
+
+        h3 {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0px;
+            text-align: center;
+           
         }
 
-
+        .box {
+            border: 4px solid green;
+            background-color: grey;
+            margin: 4px 0px;
+            padding: 20px;
+            display: inline-block;
+            width: 33%;
+            box-sizing: border-box;
+        }
+        .containe{
+            margin: auto;
+            width: 1200px;
+        }
     </style>
 </head>
+
 <body>
     <header class="top">
         <img src="https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75" alt="">
         <h3>
-            
+
             Welcome to This Blog
 
         </h3>
     </header>
-    
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel earum nulla nisi sapiente, inventore porro
+                similique id ad obcaecati aspernatur! Minus numquam cumque, perspiciatis eos incidunt illo non, fugit
+                possimus debitis harum ullam doloribus.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel earum nulla nisi sapiente, inventore porro
+                similique id ad obcaecati aspernatur! Minus numquam cumque, perspiciatis eos incidunt illo non, fugit
+                possimus debitis harum ullam doloribus.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel earum nulla nisi sapiente, inventore porro
+                similique id ad obcaecati aspernatur! Minus numquam cumque, perspiciatis eos incidunt illo non, fugit
+                possimus debitis harum ullam doloribus.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
